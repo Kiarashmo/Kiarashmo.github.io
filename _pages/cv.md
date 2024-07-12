@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science, Amirkabir University of Technology - Tehran Polytechnic | Sep. 2019 - Jun. 2024
+* B.S. in Computer Science, Amirkabir University of Technology - Tehran Polytechnic, Sep. 2019 - Jun. 2024
 
 Research Experience
 ======
-* Undergraduate Research Assistant | Spring 2023 - Present
+* Undergraduate Research Assistant, Jun. 2023 - Present
   * Computational Biology Research Center (CBRC)
   * Focusing on the optimization of drug candidates using Generative Adversarial Networks (GANs) and Variational autoencoder (VAEs) .
   * Supervisor: Dr. Fatemeh Zare-Mirakabad
@@ -33,13 +33,13 @@ Publications
   
 Teaching Experience
 ======
-* Data Mining | Instructor: Dr. Fatemeh Shakeri | Feb. 2024 – Present
-* Artificial Intelligence | Instructor: Prof. Mehdi Ghatee | Sep. 2023 – Present
-* Image Processing and Neural Networks | Instructor: Dr. Mostafa Shamsi | Feb. 2023 – Jan. 2024
-* Principles of Computer Systems | Instructor: Dr. M. Hassan Shirali-Shahreza | Sep. 2023 – Jan.2024
-* Introduction to Basic Programming with Python | Instructor: Dr. Zahra Ghorbanali | Sep. 2023 – Jan.2024
-* Advanced Programming with C++ | Instructor: Dr. Mohammad Mahdi Bejani | Feb. 2023 – Jul. 2023
-* Introduction to Logic and Set Theory | Instructor: Dr. Massoud Pourmahdian | Feb. 2023 – Jul. 2023
+* Data Mining, Instructor: Dr. Fatemeh Shakeri, Feb. 2024 – Present
+* Artificial Intelligence, Instructor: Prof. Mehdi Ghatee, Sep. 2023 – Present
+* Image Processing and Neural Networks, Instructor: Dr. Mostafa Shamsi, Feb. 2023 – Jan. 2024
+* Principles of Computer Systems, Instructor: Dr. M. Hassan Shirali-Shahreza, Sep. 2023 – Jan.2024
+* Introduction to Basic Programming with Python, Instructor: Dr. Zahra Ghorbanali, Sep. 2023 – Jan.2024
+* Advanced Programming with C++, Instructor: Dr. Mohammad Mahdi Bejani, Feb. 2023 – Jul. 2023
+* Introduction to Logic and Set Theory, Instructor: Dr. Massoud Pourmahdian, Feb. 2023 – Jul. 2023
   
 Honors & Awards
 ======
