@@ -11,54 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science, Amirkabir University of Technology - Tehran Polytechnic | Sep. 2019 - Jun. 2024
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Undergraduate Research Assistant | Spring 2023 - Present
+  * Computational Biology Research Center (CBRC)
+  * Focusing on the optimization of drug candidates using Generative Adversarial Networks (GANs) and Variational autoencoder (VAEs) .
+  * Supervisor: Dr. Fatemeh Zare-Mirakabad
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C++, C, R, Rust, SQL, HTML5/CSS3
+* Tools & Technologies: Linux, Git & Github, LATEX, Pycharm, Jupyter, Anaconda
+* ML/DL Frameworks & Libraries: Pytorch, Tensorflow, Keras, GLPK, RDkit, Numpy, Pandas, OpenCV, Matplotlib,
+Seaborn, Scipy, Scikit-Learn
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  Cooming soon...
   
-Talks
+Teaching Experience
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* Data Mining | Instructor: Dr. Fatemeh Shakeri | Feb. 2024 – Present
+* Artificial Intelligence | Instructor: Prof. Mehdi Ghatee | Sep. 2023 – Present
+* Image Processing and Neural Networks | Instructor: Dr. Mostafa Shamsi | Feb. 2023 – Jan. 2024
+* Principles of Computer Systems | Instructor: Dr. M. Hassan Shirali-Shahreza | Sep. 2023 – Jan.2024
+* Introduction to Basic Programming with Python | Instructor: Dr. Zahra Ghorbanali | Sep. 2023 – Jan.2024
+* Advanced Programming with C++ | Instructor: Dr. Mohammad Mahdi Bejani | Feb. 2023 – Jul. 2023
+* Introduction to Logic and Set Theory | Instructor: Dr. Massoud Pourmahdian | Feb. 2023 – Jul. 2023
   
-Teaching
+Honors & Awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Listed among the top 10% of my peers at Amirkabir University of Technology in Computer Science.
+* Ranked in the top 1% in the Iranian University Entrance Exam, also known as Konkour.
+* Secured 1st position among high school teams and ranked 6th among 20 university teams in Iranopen 2017 for 2D soccer simulation league.
