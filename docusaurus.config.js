@@ -15,15 +15,18 @@ const config = {
   favicon: 'img/ghost.png',
 
   // Set the production url of your site here
-  url: 'https://kiarashmo.github.io',
+  url: 'https://Kiarashmo.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kiarashmo', // Usually your GitHub org/user name.
-  projectName: 'kiarashmo.github.io', // Usually your repo name.
+  organizationName: 'Kiarashmo', // Usually your GitHub org/user name.
+  projectName: 'Kiarashmo.github.io', // Usually your repo name.
+
+  // Add trailing slash configuration for GitHub Pages
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
