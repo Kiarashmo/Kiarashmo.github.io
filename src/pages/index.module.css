@@ -33,6 +33,7 @@
 
 .heroText {
   flex: 1;
+  text-align: center;
 }
 
 .heroTitle {
