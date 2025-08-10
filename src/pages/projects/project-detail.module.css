@@ -1,0 +1,19 @@
+.projectPage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.projectImage {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 2rem auto;
+  border-radius: 8px;
+}
+
+.projectContent h1,
+.projectContent h2,
+.projectContent h3 {
+  color: var(--ifm-color-primary);
+}

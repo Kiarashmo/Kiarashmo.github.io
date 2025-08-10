@@ -1,0 +1,128 @@
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+  position: relative;
+}
+
+
+.projectGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.projectCard {
+  width: 350px;
+  height: 550px;
+  background-color: var(--ifm-card-background-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.projectCard:hover .cardImage {
+  opacity: 0.85;
+}
+
+.cardContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.cardTitle a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.cardTitle a:hover {
+  text-decoration: underline;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: var(--ifm-font-color-base);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.cardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardTag {
+  background-color: var(--ifm-color-secondary);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.cardTag:nth-child(2n) {
+  background-color: var(--ifm-color-accent);
+}
+
+.cardTag:nth-child(3n) {
+  background-color: var(--ifm-color-primary-light);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.cardAction {
+  color: var(--ifm-color-secondary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.cardAction i,
+.cardAction svg {
+  font-size: 1.5rem;
+  color: var(--ifm-color-secondary);
+  transition: color 0.3s ease;
+}
+
+.cardAction:hover i,
+.cardAction:hover svg {
+  color: var(--ifm-color-secondary-dark); /* Darker blue on hover */
+}

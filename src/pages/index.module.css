@@ -1,0 +1,114 @@
+.heroBanner {
+  padding: 3rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-background-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heroImage {
+  flex: 0 0 280px;
+}
+
+.heroImage img {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.heroText {
+  flex: 1;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ifm-color-primary);
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  color: var(--ifm-font-color-secondary);
+}
+
+.heroDescription {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.heroSocials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.heroSocialLink {
+  font-size: 1.75rem;
+  color: var(--ifm-font-color-secondary);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.heroSocialLink:hover {
+  transform: translateY(-2px);
+}
+
+.heroSocialLink:nth-child(1):hover {
+  color: var(--ifm-color-secondary); /* LinkedIn - Blue */
+}
+.heroSocialLink:nth-child(2):hover {
+  color: var(--ifm-color-secondary); /* GitHub - Green */
+}
+.heroSocialLink:nth-child(3):hover {
+  color: var(--ifm-color-secondary); /* Google Scholar - Blue */
+}
+.heroSocialLink:nth-child(4):hover {
+  color: var(--ifm-color-secondary); /* Email - Red */
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 996px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .heroActions {
+    justify-content: center;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+}

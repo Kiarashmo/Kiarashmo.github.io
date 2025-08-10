@@ -1,0 +1,72 @@
+---
+title: 'Film-Buff Chatbot: GenAI-Powered Movie Assistant' 
+image: '/img/project4.png' 
+description: 'An interactive chatbot built with Google Gemini that uses a Retrieval-Augmented Generation (RAG) pipeline.' 
+tags: ['Python', 'ChromaDB', 'RAG'] 
+github: 'https://www.kaggle.com/code/sayahashemian/genai'
+---
+
+## Film-Buff Chatbot: Your AI-Powered Movie Assistant
+
+Tired of jumping between different sites for movie trivia, ratings, and good recommendations? This project solves that problem. The **Film-Buff Chatbot** is an interactive, conversational assistant that bundles all those tasks into one place.
+
+## The Technical Reel: How It's Built
+
+The chatbot is built on a multi-stage pipeline that collects, processes, and queries movie data.
+
+### 1. Building the Knowledge Base
+
+The process starts by creating a dynamic and rich dataset:
+
+- Fetches a list of the **top 250 popular movie titles** using the TMDB API.
+- For each title, retrieves detailed metadata including **plot, genre, release year, and IMDb rating** from the OMDb API.
+- Cleans the data to handle missing values and duplicates.
+- The result is a structured pandas data frame ready for embedding and querying.
+
+### 2. Enabling Semantic Understanding with a Vector Store
+
+To power movie recommendations:
+
+- Each movie’s **plot summary** is converted into a **numerical embedding** using Google’s `text-embedding-004` model.
+- Embeddings are stored in a **ChromaDB vector database**.
+- This setup enables **semantic similarity search**, allowing the chatbot to recommend films with similar plots.
+
+### 3. Poster Analysis with Multimodal Vision
+
+- Uses **Gemini 1.5 Flash** to "see" and analyze movie posters.
+- Extracts the **top five dominant hex colors** from poster images.
+- Returns a visual **color palette** that reflects the aesthetic tone of the movie.
+
+### 4. The Conversational Agent & Custom Tools
+
+The core of the chatbot is powered by **Gemini 2.0 Flash**, configured as a conversational agent.
+
+It leverages custom Python tools to perform complex actions beyond simple text generation:
+
+#### Key Tools
+- `get_movie_info()`: Fetches title, plot, year, and IMDb rating from the database.
+- `recommend_movies()`: Finds semantically similar films using ChromaDB embeddings.
+- `get_reviews()`: Summarizes recent, real-world reviews using **Google Search grounding**, with citation footnotes.
+- `show_palette()`: Extracts and displays the poster’s color palette using multimodal vision.
+- Also there are tools for **genre filtering, year search, trailer links**, and **cast lookups**.
+
+## Tech Stack & Project Resources
+
+- **LLM & Embeddings:** Google Gemini (2.0 Flash, `text-embedding-004`)
+- **Vector Database:** ChromaDB
+- **Data Sources:** TMDB API, OMDb API
+- **Core Libraries:** Pandas, Matplotlib, Requests
+
+## Explore the Project
+
+You can run the full project notebook on **Kaggle**.
+
+To reproduce the results:
+
+- Runtime: **Kaggle Python 3.10** with **Internet ON**
+- Required Secrets:
+  - `GOOGLE_API_KEY`
+  - `TMDB_API_KEY`
+  - `OMDB_API_KEY`
+
+Make sure to set these secrets using **Kaggle Add-ons → Secrets** before execution.
