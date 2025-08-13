@@ -60,7 +60,7 @@ export default function Publications() {
   let cardIndex = 0;
   
   return (
-    <Layout title="Publications" description="Academic Publications by Saya Hashemian">
+    <Layout title="Publications" description="Academic Publications by Kiarash Mokhtari">
       <div className={styles.container}>
         {Object.entries(publicationData).map(([category, papers]) => {
           if (papers.length === 0) return null;
