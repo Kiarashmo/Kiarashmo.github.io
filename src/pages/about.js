@@ -11,7 +11,7 @@ const skills = {
     "Machine Learning", 
     "Bioinformatics", 
     "Secure and Trustworthy AI",
-    "Computer Vision", 
+    "Neuro Science", 
     "Natural Language Processing",
   ],
   "Languages": [
@@ -32,13 +32,13 @@ const skills = {
 };
 
 const experience = [
-  // {
-  //   title: "Research Assistant",
-  //   company: "Sharif University of Technology Computational Biology Lab (SUCBG)",
-  //   period: "May. 2025 - Present",
-  //   description: "Developed LLMs for clinical support while applying deep learning to model complex biological systems for computational biology research.",
-  //   logo: "/img/logos/sharif.jpg"
-  // },
+  {
+    title: "Research Assistant",
+    company: "Sharif University of Technology Computational Biology Lab (SUCBG)",
+    period: "May. 2025 - Present",
+    description: "Developed LLMs for clinical support while applying deep learning to model complex biological systems for computational biology research.",
+    logo: "/img/logos/sharif.jpg"
+  },
   {
     title: "Research Assistant",
     company: "Computational Biology Research Center (CBRC)",
