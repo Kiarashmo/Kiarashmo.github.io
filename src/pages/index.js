@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.heroContent}>
           <FadeIn>
             <div className={styles.heroImage}>
-              <img src="/img/profile.jpg" alt="Kiarash Mokhtari" />
+              <img src="/img/profile.png" alt="Kiarash Mokhtari" />
             </div>
           </FadeIn>
           <div className={styles.heroText}>
