@@ -8,8 +8,8 @@ const publicationData = {
   "Conference Papers": [],
   "Journal Papers": [
     {
-      title: "Drug Language Models for Clinical Pharmacy: Benchmarking Large Language Models and Knowledge-Augmented Reasoning on NAPLEX-Style Questions",
-      authors: "H. Kazemzadeh, M.R. KarimiNejad, K. Mokhtari Dizaji, S. Ahmadi, B. Khalaj, M.H. Rohban, A. Akbari, et al.",
+      title: "Enhancing Pharmacy LLM Performance Through DrugRAG: A Novel Retrieval-Augmented Generation Pipeline",
+      authors: "H. Kazemzadeh, K. Mokhtari Dizaji, S. Ahmadi, B. Khalaj, M.H. Rohban, A. Akbari, et al.",
       venue: "American Journal of Pharmaceutical Education, 2025 | Submitted",
       githubUrl: "#", // Add GitHub link here
       paperUrl: "#" // Add PDF link here
@@ -25,7 +25,7 @@ const publicationData = {
   "Preprints": [
     {
       title: "MolEval: A Framework for Comparative Evaluation of Molecular Embedding Strategies",
-      authors: "S.H. Alavi, K. Mokhtari Dizaji, F. Zare-Mirakabad",
+      authors: "K. Mokhtari Dizaji, S.H. Alavi, F. Zare-Mirakabad",
       venue: "In Preparation",
       githubUrl: "#", // Add GitHub link here
       paperUrl: "#" // Add PDF link here
