@@ -87,7 +87,7 @@ const config = {
         },
         {
           label: 'Google Scholar',
-          href: 'https://scholar.google.com/citations?user=YOUR_ID',
+          href: 'https://scholar.google.com/citations?user=QS6XR6EAAAAJ',
           icon: 'fas fa-graduation-cap',
         },
         {
