@@ -8,11 +8,11 @@ const publicationData = {
   "Conference Papers": [],
   "Journal Papers": [
     {
-      title: "Enhancing Pharmacy LLM Performance Through DrugRAG: A Novel Retrieval-Augmented Generation Pipeline",
-      authors: "H. Kazemzadeh, K. Mokhtari Dizaji, S. Ahmadi, B. Khalaj, M.H. Rohban, A. Akbari, et al.",
-      venue: "American Journal of Pharmaceutical Education, 2025 | Submitted",
+      title: "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
+      authors: "H. Kazemzadeh, K. Mokhtari Dizaji, S. Ahmadi, M.H. Rohban, G. Aminian, T. Javaheri, et al.",
+      venue: "Computer Methods and Programs in Biomedicine, 2025 | Submitted",
       githubUrl: "#", // Add GitHub link here
-      paperUrl: "#" // Add PDF link here
+      paperUrl: "https://arxiv.org/abs/2512.14896" // Add PDF link here
     },
     {
       title: "Diagnosing MS from MRI Images: Highlights from the Second IAI Event 2024",
