@@ -11,7 +11,7 @@ const skills = {
     "Machine Learning", 
     "Bioinformatics", 
     "Secure and Trustworthy AI",
-    "Neuro Science", 
+    "Probabilistic ML & reasoning", 
     "Natural Language Processing",
   ],
   "Languages": [
