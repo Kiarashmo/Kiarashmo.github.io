@@ -42,7 +42,7 @@ const experience = [
   {
     title: "Research Assistant",
     company: "Computational Biology Research Center (CBRC)",
-    period: "Jun. 2023 - Apr. 2025",
+    period: "Jun. 2023 - Oct. 2025",
     description: "Developed GANs and Transformers to optimize molecular structures, fine-tuning transformers with MLM and contrastive learning for classification and regression tasks.",
     logo: "/img/logos/cbrc.png"
   }
