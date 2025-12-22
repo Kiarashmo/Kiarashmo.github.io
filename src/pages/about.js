@@ -52,7 +52,7 @@ const education = [
   {
     school: "Amirkabir University of Technology",
     degree: "Bachelor of Science in Computer Science",
-    period: "Sep. 2019 - Jun. 2024",
+    period: "Sep. 2019 - Jul. 2024",
     logo: "/img/logos/aut.png"
   }
 ];
