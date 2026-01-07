@@ -44,10 +44,10 @@ function PublicationCard({ publication, index }) {
             <p className={styles.cardVenue}><em>{publication.venue}</em></p>
           </div>
           <div className={styles.cardFooter}>
-            {/* <a href={publication.githubUrl} className="button button--secondary">
+            {<a href={publication.githubUrl} className="button button--secondary">
               <i className="fab fa-github" style={{ marginRight: '8px' }}></i>
               GitHub
-            </a> */}
+            </a>}
             <a href={publication.paperUrl} className="button button--primary">Paper</a>
           </div>
         </div>
