@@ -8,18 +8,18 @@ const publicationData = {
   "Conference Papers": [],
   "Journal Papers": [
     {
+      title: "Diagnosing MS from MRI Images: Highlights from the Second IAI Event 2024",
+      authors: "F. Davanian, I. Adibi, M. Tajmirriahi, K. Mokhtari Dizaji, et al.",
+      venue: "Journal of Medical Signals & Sensors, 2026 | Published",
+      githubUrl: "#", // Add GitHub link here
+      paperUrl: "https://journals.lww.com/jmss/fulltext/2026/01020/diagnosing_multiple_sclerosis_from_magnetic.3.aspx" // Add PDF link here
+    },
+    {
       title: "DrugRAG: Enhancing Pharmacy LLM Performance Through A Novel Retrieval-Augmented Generation Pipeline",
       authors: "H. Kazemzadeh, K. Mokhtari Dizaji, S. Ahmadi, M.H. Rohban, G. Aminian, T. Javaheri, et al.",
       venue: "Computer Methods and Programs in Biomedicine, 2025 | Submitted",
       githubUrl: "#", // Add GitHub link here
       paperUrl: "https://arxiv.org/abs/2512.14896" // Add PDF link here
-    },
-    {
-      title: "Diagnosing MS from MRI Images: Highlights from the Second IAI Event 2024",
-      authors: "F. Davanian, I. Adibi, M. Tajmirriahi, K. Mokhtari Dizaji, et al.",
-      venue: "Journal of Medical Signals & Sensors, 2025 | Submitted",
-      githubUrl: "#", // Add GitHub link here
-      paperUrl: "#" // Add PDF link here
     }
   ],
   "Preprints": [
@@ -44,10 +44,10 @@ function PublicationCard({ publication, index }) {
             <p className={styles.cardVenue}><em>{publication.venue}</em></p>
           </div>
           <div className={styles.cardFooter}>
-            <a href={publication.githubUrl} className="button button--secondary">
+            {/* <a href={publication.githubUrl} className="button button--secondary">
               <i className="fab fa-github" style={{ marginRight: '8px' }}></i>
               GitHub
-            </a>
+            </a> */}
             <a href={publication.paperUrl} className="button button--primary">Paper</a>
           </div>
         </div>
